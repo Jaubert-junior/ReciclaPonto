@@ -72,5 +72,5 @@ eletrônico);
 - Configurar repositório no GitHub;
 - Iniciar desenvolvimento do mapa interativo;
 - Implementar sistema de cadastro colaborativo.
-Data: 02/03/26
-Horário: 21h
+## 10. Entregas:
+- file:///C:/Users/jaube/Downloads/Pesquisa_de_Mercado_Recicle+%20(3).pdf
