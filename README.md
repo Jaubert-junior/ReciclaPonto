@@ -1,13 +1,11 @@
 # Recicle +
 ## 1. Informações Gerais
-### Nome do Projeto: Recicle +
-### Cliente/Stakeholder: Moradores urbanos / Moradores rurais
-### Data da Reunião: 19/02/26
-### Participantes: CHRISLLEY EMYLLY, FRANCISCO FLAVIO, JAUBERT DE
-ARAUJO, THIARIO DE LIMA
+## Nome do Projeto: Recicle +
+## Cliente/Stakeholder: Moradores urbanos / Moradores rurais
+## Data da Reunião: 19/02/26
+## Participantes: CHRISLLEY EMYLLY, FRANCISCO FLAVIO, JAUBERT DE ARAUJO, THIARIO DE LIMA
 ## 2. Objetivo do Projeto
-Descreva brevemente o problema ou oportunidade que o projeto visa resolver:
-O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
+##O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 recicláveis, reduzir o descarte inadequado em aterros sanitários e promover a
 conscientização ambiental da população. A proposta busca oferecer uma solução
 tecnológica acessível que conecte cidadãos a pontos de coleta seletiva,
