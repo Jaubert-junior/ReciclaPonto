@@ -16,9 +16,9 @@ melhoria da qualidade de vida.
 ## 3. Público-Alvo
 - Usuários Finais: Moradores urbanos e rurais.
 - Principais Necessidades:
-- Encontrar o ponto de coleta mais próximo com base na geolocalização;
-- Identificar locais adequados para descarte de resíduos recicláveis;
-- Filtrar pontos de coleta por tipo de material (plástico, vidro, metal, papel,
+### Encontrar o ponto de coleta mais próximo com base na geolocalização;
+### Identificar locais adequados para descarte de resíduos recicláveis;
+###Filtrar pontos de coleta por tipo de material (plástico, vidro, metal, papel,
 eletrônico);
 ● Ter acesso a informações educativas sobre reciclagem.
 ## 4. Escopo e Funcionalidades
