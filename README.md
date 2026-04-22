@@ -4,7 +4,7 @@
 ### Cliente/Stakeholder: Moradores urbanos / Moradores rurais
 ### Participantes: CHRISLLEY EMYLLY, FRANCISCO FLAVIO, JAUBERT DE ARAUJO, THIARIO DE LIMA
 ### 2. Objetivo do Projeto
-###   O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos recicláveis, reduzir o descarte inadequado em aterros sanitários e promover a conscientização ambiental da população. A proposta busca oferecer uma solução tecnológica acessível que conecte cidadãos a pontos de coleta seletiva, incentivando práticas sustentáveis e contribuindo para a preservação ambiental e melhoria da qualidade de vida.
+-   O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos recicláveis, reduzir o descarte inadequado em aterros sanitários e promover a conscientização ambiental da população. A proposta busca oferecer uma solução tecnológica acessível que conecte cidadãos a pontos de coleta seletiva, incentivando práticas sustentáveis e contribuindo para a preservação ambiental e melhoria da qualidade de vida.
 ## 3. Público-Alvo
 ### Usuários Finais: Moradores urbanos e rurais.
 ### Principais Necessidades:
