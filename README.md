@@ -1,9 +1,9 @@
-# BRIEFING DO PROJETO DE SOFTWARE
+# Recicle +
 ## 1. Informações Gerais
-- Nome do Projeto: Recicle +
-- Cliente/Stakeholder: Moradores urbanos / Moradores rurais
-- Data da Reunião: 19/02/26
-- Participantes: CHRISLLEY EMYLLY, FRANCISCO FLAVIO, JAUBERT DE
+### Nome do Projeto: Recicle +
+### Cliente/Stakeholder: Moradores urbanos / Moradores rurais
+### Data da Reunião: 19/02/26
+### Participantes: CHRISLLEY EMYLLY, FRANCISCO FLAVIO, JAUBERT DE
 ARAUJO, THIARIO DE LIMA
 ## 2. Objetivo do Projeto
 Descreva brevemente o problema ou oportunidade que o projeto visa resolver:
