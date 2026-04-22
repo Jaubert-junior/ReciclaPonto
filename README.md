@@ -72,5 +72,3 @@ eletrônico);
 - Configurar repositório no GitHub;
 - Iniciar desenvolvimento do mapa interativo;
 - Implementar sistema de cadastro colaborativo.
-## 10. Entregas:
-- file:///C:/Users/jaube/Downloads/Pesquisa_de_Mercado_Recicle+%20(3).pdf
