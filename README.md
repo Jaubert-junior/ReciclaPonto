@@ -30,6 +30,7 @@ eletrônico);
 ## 5. Prazos e Cronograma
 - Data de Início: 24/02/26
 - Prazos Importantes:
+-- ghjjgfvb
 ## 6. Recursos e Ferramentas
 ### Tecnologias a serem utilizadas:
 - HTML5
