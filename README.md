@@ -1,74 +1,130 @@
-# Recicle +
-## 1. Informações Gerais
-### Nome do Projeto: Recicle +
-### Participantes: CHRISLLEY EMYLLY, FRANCISCO FLAVIO, JAUBERT DE ARAUJO, THIARIO DE LIMA
-## 2. Objetivo do Projeto
-###   O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos recicláveis, reduzir o descarte inadequado em aterros sanitários e promover a conscientização ambiental da população. A proposta busca oferecer uma solução tecnológica acessível que conecte cidadãos a pontos de coleta seletiva, incentivando práticas sustentáveis e contribuindo para a preservação ambiental e melhoria da qualidade de vida.
-## 3. Público-Alvo
-### Usuários Finais: Moradores urbanos e rurais.
-### Principais Necessidades:
-- Encontrar o ponto de coleta mais próximo com base na geolocalização;
-- Identificar locais adequados para descarte de resíduos recicláveis;
-- Filtrar pontos de coleta por tipo de material (plástico, vidro, metal, papel,
-eletrônico);
-- Ter acesso a informações educativas sobre reciclagem.
-## 4. Escopo e Funcionalidades
-### Funcionalidades Principais:
-- Localização de Pontos de Coleta em Mapa Interativo
-- Exibição visual dos pontos cadastrados em mapa digital.
-- Geolocalização e Cálculo de Distância
-- Identificação automática da localização do usuário e exibição do ponto de coleta mais próximo.
-- Filtro por Tipo de Material
-- Permite selecionar categorias específicas de resíduos.
-- Cadastro Colaborativo de Pontos de Coleta
-- Usuários poderão sugerir novos pontos, mediante validação.
-###Restrições e Limitações:
-- Necessidade de conexão com a internet para funcionamento;
-- Dependência de APIs externas (Google Maps);
-- Tempo limitado para desenvolvimento (cronograma acadêmico);
-- Possibilidade de cadastros falsos ou duplicados.
-## 5. Prazos e Cronograma
-- Data de Início: 24/02/26
-- Prazos Importantes:
--- ghjjgfvb
-## 6. Recursos e Ferramentas
-### Tecnologias a serem utilizadas:
-- HTML5
-- CSS3
-- JavaScript
-- API de Geolocalização
-- Google Maps API
-### Ferramentas e recursos disponíveis:
-- Visual Studio Code – Editor de código
-- GitHub – Controle de versão
-- Trello – Organização do projeto (Scrum)
-- Google Maps API – Integração com mapa e geolocalização
-## 7. Critérios de Sucesso e Indicadores de Qualidade
-### Critérios de sucesso:
-- Integração funcional com o mapa;
-- Geolocalização precisa e eficiente;
-- Interface intuitiva e de fácil navegação;
-- Sistema funcional de cadastro e validação de pontos;
-- Boa experiência do usuário (UX).
-### Indicadores de qualidade:
-- Sistema responsivo (desktop);
-- Tempo de carregamento adequado;
-- Proteção contra cadastros duplicados;
-- Testes realizados antes da entrega;
-- Correta validação de dados inseridos.
-## 8. Riscos e Limitações
-### Riscos identificados:
-- Dificuldade na integração com a Google Maps API;
-- Inserção de dados incorretos pelos usuários;
-- Cadastro de pontos falsos;
-- Plano de mitigação:
-- Testar a API antecipadamente;
-- Implementar validação automática de dados;
-- Criar sistema de denúncia e moderação;
-## 9. Próximos Passos e Acompanhamento
-### Ações a serem realizadas:
-- Refinar requisitos do sistema;
-- Criar protótipo da interface;
-- Configurar repositório no GitHub;
-- Iniciar desenvolvimento do mapa interativo;
-- Implementar sistema de cadastro colaborativo.
+Recicle +/
+│
+├── README.md
+│ # Sessão principal do projeto.
+│ # Deve apresentar visão geral, equipe,
+│ # objetivos, artefatos e progresso atual.
+│
+├── .gitignore
+│ # Arquivo de configuração do Git.
+│ # Define arquivos e pastas que não devem
+│ # ser enviados ao repositório.
+│
+├── docs/
+│ # Pasta destinada à documentação geral
+│ # e aos artefatos produzidos no projeto.
+│
+│ ├── requisitos/
+│ │ # Sessão de levantamento e análise
+│ │ # das necessidades do sistema.
+│ │
+│ │ ├── backlog.md
+│ │ │ # Lista priorizada de funcionalidades.
+│ │ │ ├── historias-de-usuario.md
+│ │ │ # Necessidades descritas na visão do usuário.
+│ │ │ ├── atores.md
+│ │ │ # Perfis de usuários do sistema.
+│ │ └── regras-de-negocio.md
+│ │ # Regras e restrições operacionais.
+│ │
+│ ├── modelagem/
+│ │ # Sessão técnica com diagramas
+│ │ # e representação estrutural do sistema.
+│ │
+│ │ ├── casos-de-uso.png
+│ │ │ # Interações entre usuários e sistema.
+│ │ ├── fluxo-de-telas.png
+│ │ │ # Navegação entre páginas/telas.
+│ │ │
+│ │ ├── arquitetura.png
+│ │ │ # Organização entre front, back e banco.
+│ │ │
+│ │ ├── diagrama-classes.png
+│ │ │ # Estrutura orientada a objetos (opcional).
+│ │
+│ │ └── modelo-er.png
+│ │ # Modelo entidade-relacionamento.
+│ ├── prototipos/
+│ │ # Sessão visual com telas simuladas
+
+│ │ # antes da implementação real.
+│ │
+│ │ ├── login.png
+│ │ ├── dashboard.png
+│ │ ├── cadastro.png
+│ │ └── demais-telas.png
+│ │
+│ ├── planejamento/
+│ │ # Sessão de gestão do projeto,
+│ │ # cronograma e acompanhamento.
+│ │
+│ │ ├── cronograma.md
+│ │ │ # Datas e etapas do projeto.
+│ │
+│ │ ├── sprints.md
+│ │ │ # Planejamento incremental por sprint.
+│ │
+│ │ ├── entregas.md
+│ │ │ # Histórico de entregas realizadas.
+│ │
+│ │ └── trello.png
+│ │ # Quadro Kanban ou tarefas.
+│
+│ └── apresentacao/
+│ # Sessão de evidências reais
+│ # da evolução do projeto.
+│
+│ ├── sistema-rodando.png
+│ │ # Sistema em funcionamento.
+│
+│ ├── login-funcionando.png
+│ │ # Tela real implementada.
+│
+│ ├── dashboard-real.png
+│ │ # Interface concluída/parcial.
+│
+│ ├── banco-funcionando.png
+│ │ # Banco criado e populado.
+│
+│ ├── api-postman.png
+│ │ # API testada e respondendo.
+│
+│ ├── trello-atualizado.png
+│ │ # Gestão atual do time.
+│
+│ └── demo.mp4
+│ # Vídeo demonstrativo do sistema.
+│
+├── database/
+│ # Sessão exclusiva do banco de dados.
+│
+
+│ ├── ddl.sql
+│ │ # Estrutura das tabelas.
+│ ├── dml.sql
+│ │ # Inserção e manipulação de dados.
+│ ├── schema.sql
+│ │ # Banco completo pronto para importar.
+│ ├── seeds.sql
+│ │ # Dados iniciais para testes.
+│ └── modelo-er.png
+│ # Diagrama visual do banco.
+│
+├── backend/
+│ # Sessão do código servidor,
+│ # regras de negócio e API.
+│
+├── frontend/
+│ # Sessão da interface gráfica
+│ # utilizada pelo usuário final.
+│
+├── assets/
+│ # Pasta de imagens utilizadas
+│ # no README e apresentação visual.
+│ ├── banner.png
+│ ├── logo.png
+│ └── equipe.jpg
+│
+└── src/
+# Sessão complementar para código-fonte
+# compartilhado ou módulos extras.
