@@ -1,9 +1,11 @@
-Recicle +/
-│
-├── README.md
-│ # Sessão principal do projeto.
-│ # Deve apresentar visão geral, equipe,
-│ # objetivos, artefatos e progresso atual.
+# Recicle +
+## Integrantes: Chrislley Emylly, Francisco Flávio, Jaubert Junior, Thiario Lima
+## O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos recicláveis, reduzir o descarte inadequado em aterros sanitários e promover a conscientização ambiental da população. A proposta busca oferecer uma solução tecnológica acessível que conecte cidadãos a pontos de coleta seletiva, incentivando práticas sustentáveis e contribuindo para a preservação ambiental e melhoria da qualidade de vida.
+
+
+#Sessão principal do projeto.
+#Deve apresentar visão geral, equipe,
+# objetivos, artefatos e progresso atual.
 │
 ├── .gitignore
 │ # Arquivo de configuração do Git.
