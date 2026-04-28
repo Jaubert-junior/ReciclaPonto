@@ -5,6 +5,7 @@
 - Francisco Flávio
 - Jaubert Junior
 - Thiario Lima
+- 
 ## Disciplina
 Projeto Integrador
 ## Professor
@@ -30,6 +31,44 @@ O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 | Gestão | Trello |
 
 
+# 6. Requisitos do Sistema
+## Atores
+- Administrador
+- Cidadão
+- Google Maps API
+
+## Regras de Negócio
+– Unicidade de Cadastro: Cada usuário deve ser identificado por um e-mail único. Não é permitido criar mais de uma conta com o mesmo e-mail.
+– Perfil de Acesso: O sistema deve distinguir entre Cidadão (acesso ao mapa, ranking e perfil) e Administrador (acesso aos logs e gestão de denúncias).
+– Persistência de Sessão: A sessão do usuário deve permanecer ativa por até 7 dias, a menos que o usuário solicite explicitamente o "Logout".
+– Disponibilidade do Mapa: O mapa interativo só exibirá pontos de coleta se o usuário permitir o acesso à localização do navegador ou informar um endereço/CEP válido.
+– Raio de Busca: Por padrão, o sistema deve sugerir os pontos de coleta num raio de até 10km da posição atual do usuário, permitindo a expansão manual desse filtro.
+– Cadastro de Novos Pontos: Qualquer cidadão pode sugerir um novo ponto de coleta, mas este só ficará visível para os demais usuários após a aprovação de um Administrador.
+– Atribuição de Pontos: O usuário ganhará pontos ao:
+1.Realizar check-in em um ponto de coleta (10 pts).
+2.Sugerir um novo ponto que venha a ser aprovado (50 pts).
+3.Reportar um erro ou denúncia que seja verídica (10 pts).
+- Limite de Check-in: Para evitar fraudes, um usuário só pode realizar 1 check-in por dia no mesmo ponto de coleta.
+– Atualização do Ranking: O ranking global deve ser processado e atualizado semanalmente.
+– Suspensão de Pontos: Se um ponto de coleta receber 3 ou mais denúncias de "insalubridade" ou "inexistência" em um período de 48h, ele deve ser ocultado automaticamente do mapa até a revisão administrativa.
+– Prova Visual: Toda denúncia ou sugestão de novo ponto deve obrigatoriamente conter pelo menos uma foto anexada para fins de auditoria.
+– Conexão Obrigatória: O sistema não deve permitir o carregamento de novas rotas ou busca de pontos sem conexão ativa com a internet.
+– Natureza do Serviço: O sistema não realiza agendamento de coletas domiciliares nem processa pagamentos financeiros (recompensa apenas via pontos virtuais).
+
+## Backlog
+| ID | Item | Prioridade | Status |
+|----|------|------------|--------|
+| 1 |Login de Usuário| Alta|Em desenvolvimento
+| 2 |Busca de Pontos|Alta|Pendente
+| 3 |Filtro de Resíduos|Média|Pendente
+| 4 |Ranking|Média|Pendente
+| 5 |Denúncia de Pontos|Baixa|Pendente
+| 6 |Informações Educativas|Baixa|Pendente
+| 7 |Perfil do Usuario|Baixa|Pendente
+| 8 |Compartilhamento Social|Baixa|Pendente
+| 9 |Reportar Erros|Baixa|Pendente
+| 10 |Controle de sessões|Baixa|Pendente
+
 ## Histórias de Usuário
 - Como usuário quero fazer login com minhas credenciais para acessar o sistema.
 - Como cidadão eu quero buscar por pontos de coleta seletiva mais próximos de minha residência ou de outro lugar selecionado.
@@ -43,94 +82,119 @@ O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 - Como administrador eu quero conseguir  um registro com os acessos do sistema para manter um controle de sessões. 
 
 # 7. Modelagem do Sistema
-- motivo da ausência: falta do detalhamento devido das historias e interfaces
-- etapa em que será produzido: Planejamento das sprints;
-- Previsão de entrega: 04/04/26;
-- 
+## Diagrama de Casos de Uso
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Planejamento de sprints;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+## Fluxo de Telas
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Planejamento de sprints;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+## Arquitetura
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Planejamento de sprints;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+## Modelo Entidade-Relacionamento
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+## Diagrama de Classes
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+
 # 8. Protótipos
 ## Tela de Login
 [Login](docs/prototipos/login_e_cadastro.jpg)
-## Dashboard
-
 ## Cadastro
 [Cadastro](docs/prototipos/cadastro.png)
+## Ranking
+[ranking](ranking.jpg)
+## Mapa
+[mapa](visualizar_pontos.jpg)
 ---
 # 9. Planejamento do Projeto
 ## Cronograma
-| Etapa | Período |
-|------|---------|
-| Levantamento | xx/xx a xx/xx |
-| Protótipos | xx/xx a xx/xx |
-| Implementação | xx/xx a xx/xx |
+- motivo da ausência: Ainda não entranos em um concenso do grupo, porém há de ser discutido
+- etapa em que será produzido: Planejamento das sprints;
+- Previsão de entrega: 04/04/26;
+- Responsável: equipe
 ## Sprints
-| Sprint | Entregas |
-|-------|----------|
-| Sprint 1 | Login + Banco |
-| Sprint 2 | Dashboard |
-| Sprint 3 | Relatórios |
+- motivo da ausência: Ainda não entranos em um concenso do grupo, porém há de ser discutido
+- etapa em que será produzido: Planejamento das sprints;
+- Previsão de entrega: 04/04/26;
+- Responsável: equipe
 ## Gestão das Tarefas
-![Trello](docs/planejamento/trello.png)
+- motivo da ausência: Ainda não entranos em um concenso do grupo, porém há de ser discutido
+- etapa em que será produzido: Planejamento das sprints;
+- Previsão de entrega: 04/04/26;
+- Responsável: equipe
 ## Histórico de Entregas
-- Entrega 1: documentação inicial
-- Entrega 2: protótipos
-- Entrega 3: implementação parcial
+Entrega 1: Documento de Briefing; Pesquisa de Mercado; Visão de produto; ENFN
+Entrega 2: Análise de requisitos básica, definição de atores, definição de interfaces, definição de dados, backlog
+Entrega 3: Historias de usuario, Protótipos
+
 ---
 # 10. Banco de Dados
 ## Estrutura
-Arquivos disponíveis:
-- `database/ddl.sql`
-- `database/dml.sql`
-- `database/schema.sql`
-- `database/seeds.sql`
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
 ## Modelo Visual
-![Banco](database/modelo-er.png)
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
 ## Observações
-Descrever decisões tomadas na modelagem.
+- motivo da ausência: Ainda em desenvolvimento
+- etapa em que será produzido: Implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
 ---
 # 11. Implementação
-## Backend
-Descrever API, rotas ou regras implementadas.
-## Frontend
-Descrever telas já desenvolvidas.
-## Funcionalidades Concluídas
-- Login
-- Cadastro
-- Consulta
-## Funcionalidades em Desenvolvimento
 
-- Relatórios
-- Painel administrativo
----
+## Backend
+- motivo da ausência: ainda não iniciamos o processo de implementção;
+- etapa em que será produzido: implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+## Frontend
+- motivo da ausência: ainda não iniciamos o processo de implementção;
+- etapa em que será produzido: implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+## Funcionalidades Concluídas
+- motivo da ausência: ainda não iniciamos o processo de implementção;
+- etapa em que será produzido: implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
+## Funcionalidades em Desenvolvimento
+- Login 
+- Cadastro
+--
 # 12. Evidências do Projeto
-## Sistema Rodando
-![Sistema](docs/apresentacao/sistema-rodando.png)
-## Tela Login Real
-![Login Real](docs/apresentacao/login-funcionando.png)
-## Dashboard Implementado
-![Dashboard Real](docs/apresentacao/dashboard-real.png)
-## Banco Funcionando
-![Banco](docs/apresentacao/banco-funcionando.png)
-## API Testada
-![API](docs/apresentacao/api-postman.png)
-## Demonstração
-Inserir vídeo:
-`docs/apresentacao/demo.mp4`
+- motivo da ausência: ainda não iniciamos o processo de implementção;
+- etapa em que será produzido: implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
 ---
 # 13. Itens Ainda Não Produzidos
-> Nenhuma seção deve ficar vazia.
-## Exemplo:
-### Diagrama de Classes
-Ainda não elaborado, pois a modelagem orientada a objetos está em andamento.
-Previsão: Sprint 2.
-### Front-end Completo
-Interfaces finais ainda em desenvolvimento.
+- motivo da ausência: ainda não iniciamos o processo de implementção;
+- etapa em que será produzido: implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
 ---
-
 # 14. Como Executar o Projeto
-```bash
-git clone URL_DO_REPOSITORIO
-cd nome-do-projeto
-etc...
+- motivo da ausência: ainda não iniciamos o processo de implementção;
+- etapa em que será produzido: implementação;
+- Previsão de entrega: 07/04/26;
+- Responsável: equipe
 
 
 
