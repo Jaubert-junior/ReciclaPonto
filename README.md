@@ -51,9 +51,9 @@ O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 - Limite de Check-in: Para evitar fraudes, um usuário só pode realizar 1 check-in por dia no mesmo ponto de coleta.
 - Atualização do Ranking: O ranking global deve ser processado e atualizado semanalmente.
 - Suspensão de Pontos: Se um ponto de coleta receber 3 ou mais denúncias de "insalubridade" ou "inexistência" em um período de 48h, ele deve ser ocultado automaticamente do mapa até a revisão administrativa.
-– Prova Visual: Toda denúncia ou sugestão de novo ponto deve obrigatoriamente conter pelo menos uma foto anexada para fins de auditoria.
-– Conexão Obrigatória: O sistema não deve permitir o carregamento de novas rotas ou busca de pontos sem conexão ativa com a internet.
-– Natureza do Serviço: O sistema não realiza agendamento de coletas domiciliares nem processa pagamentos financeiros (recompensa apenas via pontos virtuais).
+- Prova Visual: Toda denúncia ou sugestão de novo ponto deve obrigatoriamente conter pelo menos uma foto anexada para fins de auditoria.
+- Conexão Obrigatória: O sistema não deve permitir o carregamento de novas rotas ou busca de pontos sem conexão ativa com a internet.
+- Natureza do Serviço: O sistema não realiza agendamento de coletas domiciliares nem processa pagamentos financeiros (recompensa apenas via pontos virtuais).
 
 ## Backlog
 | ID | Item | Prioridade | Status |
