@@ -49,11 +49,11 @@ O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 - 
 # 8. Protótipos
 ## Tela de Login
-![Login](docs/prototipos/login.png)
+[Login](docs/prototipos/login_e_cadastro.jpg)
 ## Dashboard
-![Dashboard](docs/prototipos/dashboard.png)
+
 ## Cadastro
-![Cadastro](docs/prototipos/cadastro.png)
+[Cadastro](docs/prototipos/cadastro.png)
 ---
 # 9. Planejamento do Projeto
 ## Cronograma
@@ -66,7 +66,6 @@ O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 | Sprint | Entregas |
 |-------|----------|
 | Sprint 1 | Login + Banco |
-
 | Sprint 2 | Dashboard |
 | Sprint 3 | Relatórios |
 ## Gestão das Tarefas
