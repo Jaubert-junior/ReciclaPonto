@@ -1,6 +1,172 @@
 # Recicle +
-## Integrantes: Chrislley Emylly, Francisco Flávio, Jaubert Junior, Thiario Lima
-## O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos recicláveis, reduzir o descarte inadequado em aterros sanitários e promover a conscientização ambiental da população. A proposta busca oferecer uma solução tecnológica acessível que conecte cidadãos a pontos de coleta seletiva, incentivando práticas sustentáveis e contribuindo para a preservação ambiental e melhoria da qualidade de vida.
+# 1.Identificação do projeto
+## Equipe: 
+- Chrislley Emylly
+- Francisco Flávio
+- Jaubert Junior
+- Thiario Lima
+## Disciplina
+Projeto Integrador
+## Professor
+Ely Miranda
+
+-----
+# 2. Problema a ser Resolvido
+O descarte inadequado de resíduos sólidos é um dos principais desafios ambientais no Brasil. Apesar da existência da Política Nacional de Resíduos Sólidos (Lei nº 12.305/2010), grande parte da população não possui acesso facilitado às informações sobre locais corretos para descarte de materiais recicláveis. 
+
+# 3. Objetivo do Projeto
+O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos recicláveis, reduzir o descarte inadequado em aterros sanitários e promover a conscientização ambiental da população. A proposta busca oferecer uma solução tecnológica acessível que conecte cidadãos a pontos de coleta seletiva, incentivando práticas sustentáveis e contribuindo para a preservação ambiental e melhoria da qualidade de vida.
+
+# 4. Público-Alvo
+- Cidadãos
+
+# 5. Tecnologias Utilizadas
+| Área | Tecnologia |
+|------|------------|
+| Front-end | HTML / CSS / JS |
+| Back-end | Flask |
+| Banco | MySQL|
+| Prototipação | Canva |
+| Gestão | Trello |
+
+
+
+
+
+
+
+
+## Histórias de Usuário
+- Como cliente, desejo agendar horário para facilitar meu atendimento.
+- Como administrador, desejo visualizar relatórios para acompanhar resultados.
+---
+# 7. Modelagem do Sistema
+## Diagrama de Casos de Uso
+
+![Casos de Uso](docs/modelagem/casos-de-uso.png)
+## Fluxo de Telas
+![Fluxo de Telas](docs/modelagem/fluxo-de-telas.png)
+## Arquitetura
+![Arquitetura](docs/modelagem/arquitetura.png)
+## Modelo Entidade-Relacionamento
+![Modelo ER](docs/modelagem/modelo-er.png)
+## Diagrama de Classes
+![Diagrama de Classes](docs/modelagem/diagrama-classes.png)
+> Caso ainda não exista, justificar ausência.
+---
+# 8. Protótipos
+## Tela de Login
+![Login](docs/prototipos/login.png)
+## Dashboard
+![Dashboard](docs/prototipos/dashboard.png)
+## Cadastro
+![Cadastro](docs/prototipos/cadastro.png)
+---
+# 9. Planejamento do Projeto
+## Cronograma
+| Etapa | Período |
+|------|---------|
+| Levantamento | xx/xx a xx/xx |
+| Protótipos | xx/xx a xx/xx |
+| Implementação | xx/xx a xx/xx |
+## Sprints
+| Sprint | Entregas |
+|-------|----------|
+| Sprint 1 | Login + Banco |
+
+| Sprint 2 | Dashboard |
+| Sprint 3 | Relatórios |
+## Gestão das Tarefas
+![Trello](docs/planejamento/trello.png)
+## Histórico de Entregas
+- Entrega 1: documentação inicial
+- Entrega 2: protótipos
+- Entrega 3: implementação parcial
+---
+# 10. Banco de Dados
+## Estrutura
+Arquivos disponíveis:
+- `database/ddl.sql`
+- `database/dml.sql`
+- `database/schema.sql`
+- `database/seeds.sql`
+## Modelo Visual
+![Banco](database/modelo-er.png)
+## Observações
+Descrever decisões tomadas na modelagem.
+---
+# 11. Implementação
+## Backend
+Descrever API, rotas ou regras implementadas.
+## Frontend
+Descrever telas já desenvolvidas.
+## Funcionalidades Concluídas
+- Login
+- Cadastro
+- Consulta
+## Funcionalidades em Desenvolvimento
+
+- Relatórios
+- Painel administrativo
+---
+# 12. Evidências do Projeto
+## Sistema Rodando
+![Sistema](docs/apresentacao/sistema-rodando.png)
+## Tela Login Real
+![Login Real](docs/apresentacao/login-funcionando.png)
+## Dashboard Implementado
+![Dashboard Real](docs/apresentacao/dashboard-real.png)
+## Banco Funcionando
+![Banco](docs/apresentacao/banco-funcionando.png)
+## API Testada
+![API](docs/apresentacao/api-postman.png)
+## Demonstração
+Inserir vídeo:
+`docs/apresentacao/demo.mp4`
+---
+# 13. Itens Ainda Não Produzidos
+> Nenhuma seção deve ficar vazia.
+## Exemplo:
+### Diagrama de Classes
+Ainda não elaborado, pois a modelagem orientada a objetos está em andamento.
+Previsão: Sprint 2.
+### Front-end Completo
+Interfaces finais ainda em desenvolvimento.
+---
+
+# 14. Como Executar o Projeto
+```bash
+git clone URL_DO_REPOSITORIO
+cd nome-do-projeto
+etc...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 # Artefatos:
 - [Backlog, Atores e listagem interfaces](https://docs.google.com/document/d/1K4Hd_IH8MM24_qvR4_lN34swMgaSWgAQFqfg65YzfRs/edit?usp=sharing)
 - [Reunião Briefing](https://docs.google.com/document/d/1kFNeafuiMCbmd1xoZLPTGJzVyshhyYIH-ptcpnavkk0/edit?usp=sharing)
