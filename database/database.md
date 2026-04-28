@@ -1,0 +1,4 @@
+- motivo da ausência: Ainda não iniciamos o processo de implementação;
+- etapa em que será produzido: implementação;
+- previsão de entrega 04/05/26;
+- equipe

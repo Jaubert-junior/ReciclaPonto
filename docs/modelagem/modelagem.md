@@ -1,0 +1,4 @@
+- motivo da ausência: nossa ma detalhação de histórias de usuario e telas;
+- etapa em que será produzido: Planejamento das sprints;
+- Previsão de entrega: 30/04/26;
+- Responsável: equipe
