@@ -30,30 +30,23 @@ O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 | Gestão | Trello |
 
 
-
-
-
-
-
-
 ## Histórias de Usuário
-- Como cliente, desejo agendar horário para facilitar meu atendimento.
-- Como administrador, desejo visualizar relatórios para acompanhar resultados.
----
-# 7. Modelagem do Sistema
-## Diagrama de Casos de Uso
+- Como usuário quero fazer login com minhas credenciais para acessar o sistema.
+- Como cidadão eu quero buscar por pontos de coleta seletiva mais próximos de minha residência ou de outro lugar selecionado.
+- Como cidadão quero filtrar os locais por um tipo específico de resíduos.
+- Como cidadão quero visualizar o ranking de usuários, para que possa comparar meu engajamento com o de outros.
+- Como cidadão eu quero realizar denúncias de pontos de coleta insalubres para manter a integridade do sistema.
+- Como cidadão eu quero acessar informações educativas sobre reciclagem.
+- Como cidadão quero visualizar meu perfil para adicionar ou alterar uma foto de perfil.
+- Como cidadão, quero compartilhar meu progresso no ranking em redes sociais, para que eu incentive meus amigos a também reciclarem.
+- Como cidadão quero Reportar Erros no sistema.
+- Como administrador eu quero conseguir  um registro com os acessos do sistema para manter um controle de sessões. 
 
-![Casos de Uso](docs/modelagem/casos-de-uso.png)
-## Fluxo de Telas
-![Fluxo de Telas](docs/modelagem/fluxo-de-telas.png)
-## Arquitetura
-![Arquitetura](docs/modelagem/arquitetura.png)
-## Modelo Entidade-Relacionamento
-![Modelo ER](docs/modelagem/modelo-er.png)
-## Diagrama de Classes
-![Diagrama de Classes](docs/modelagem/diagrama-classes.png)
-> Caso ainda não exista, justificar ausência.
----
+# 7. Modelagem do Sistema
+- motivo da ausência: falta do detalhamento devido das historias e interfaces
+- etapa em que será produzido: Planejamento das sprints;
+- Previsão de entrega: 04/04/26;
+- 
 # 8. Protótipos
 ## Tela de Login
 ![Login](docs/prototipos/login.png)
