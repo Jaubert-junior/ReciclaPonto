@@ -120,20 +120,26 @@ O projeto Recicle+ tem como objetivo facilitar a logística reversa de resíduos
 ---
 # 9. Planejamento do Projeto
 ## Cronograma
-- motivo da ausência: Ainda não entranos em um concenso do grupo, porém há de ser discutido
-- etapa em que será produzido: Planejamento das sprints;
-- Previsão de entrega: 04/04/26;
-- Responsável: equipe
+| Etapa | Período |
+|------|---------|
+| Levantamento | 17/02 a 08/04 |
+| Protótipos | 08/04 a 30/04 |
+| Implementação | 04/05 a 15/06 |
 ## Sprints
-- motivo da ausência: Ainda não entranos em um concenso do grupo, porém há de ser discutido
-- etapa em que será produzido: Planejamento das sprints;
-- Previsão de entrega: 04/04/26;
-- Responsável: equipe
+| Sprint | Entregas |
+|-------|----------|
+| Sprint 1 | Login de Usuário + banco |
+| Sprint 2 | Busca de Pontos |
+| Sprint 3 | Filtro de Resíduos |
+| Sprint 4 | Ranking |
+| Sprint 5 | Denúncia de Pontos |
+| Sprint 6 | Informações Educativas |
+| Sprint 7 | Perfil do Usuario |
+| Sprint 8 | Compartilhamento Social |
+| Sprint 9 | Reportar Erros |
+| Sprint 10 | Controle de sessões |
 ## Gestão das Tarefas
-- motivo da ausência: Ainda não entranos em um concenso do grupo, porém há de ser discutido
-- etapa em que será produzido: Planejamento das sprints;
-- Previsão de entrega: 04/04/26;
-- Responsável: equipe
+Pendente
 ## Histórico de Entregas
 Entrega 1: Documento de Briefing; Pesquisa de Mercado; Visão de produto; ENFN
 Entrega 2: Análise de requisitos básica, definição de atores, definição de interfaces, definição de dados, backlog
